@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <title>Unity Library</title>
+</head>
+
+<body style="background-color: rgb(237, 240, 240);">
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Home">
+    <a class="navbar-brand" href="#" style="color: black; font-size: 30px;">Unity Library</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="Home">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About Our Library</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link " href="#collections" tabindex="-1" aria-disabled="true">Our Services</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <div style="margin-left: 30px; margin-right: 30px">
+    <!-- carousel -->
+    <div class="card bg-dark text-white">
+      <img src="img/library-488690_1280.jpg" class="card-img" alt="..." height="500px">
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="color: black;">Welcome to Unity Library</h5>
+        
+      </div>
+    </div>
+
+    <!-- card -->
+    <div style="
+          margin-top: 50px;
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+        ">
+      <div class="card" style="width: 18rem">
+        <img src="img/jkrolling.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Harry Potter</h5>
+          <p class="card-text">
+            Follow the young wizard, Harry Potter, as he discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry.
+          </p>
+          <a href="#" class="btn btn-primary">Go To Book</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/images.png" height="200px" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">The Design Of Books</h5>
+          <p class="card-text">
+            A high-resolution image of the book’s cover to give users a visual representation. The image should be clear and well-cropped.
+          </p>
+          <a href="#" class="btn btn-primary">Go To Book</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/3rd book.jpeg" class="card-img-top" alt="..." height="200px" />
+        <div class="card-body">
+          <h5 class="card-title">In the Heart of the SEA</h5>
+          <p class="card-text">
+            In the Heart of the Sea chronicles the harrowing true story of the whaleship Essex, its tragic sinking, and the crew's fight for survival.
+          </p>
+          <a href="#" class="btn btn-primary">Go To Book</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div style="margin-top: 50px" id="About">
+      <center>
+        <h1>About Our Library</h1>
+      </center>
+      <div style="display: flex; margin-top: 20px">
+        <div style="justify-content: center; margin-left: 30px">
+          <h3>Welcome to Unity Library!</h3>
+          <p>
+            Welcome to Unity Library, a dynamic center for learning,
+            research, and engagement. Our diverse collection includes fiction
+            and non-fiction books, e-books, audiobooks, children's literature,
+            periodicals, and special collections like rare books and local
+            history archives. We strive to provide resources that cater to all
+            interests and age groups, making our library a vital community hub
+            for education and personal growth.
+          </p>
+        </div>
+        <div style="margin-left: 20px">
+          <img src="img/learn.jpg" alt="" height="250px" width="500px" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Collection -->
+    <div style="background-color: rgb(237, 240, 240); margin-top: 30px;" id="collections">
+      <center>
+        <h1>Our Collection</h1>
+      </center>
+      <div class="card-columns">
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Books and E-books:</h5>
+            <p class="card-text">
+            <ul>
+              <li><B>Children's Books:</B> A dedicated space for young readers, with picture books, early readers, and
+                young adult novels.
+
+              <li><b>E-books and Audiobooks: </b>Access our digital library from anywhere, anytime.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="card p-3">
+
+          <p><b>Periodicals:</b></p>
+
+          <ul>
+            <li><b>Magazines and Journals:</b>Stay updated with the latest in various fields such as science,
+              technology, health, fashion, and current affairs.
+            </li>
+            <li><b>Newspapers:</b>Daily newspapers to keep you informed about local and global news.
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Multimedia</h5>
+            <ul>
+              <li><b>Music CDs and Digital Music:</b>A wide range of music genres available in both physical CDs and
+                digital formats for streaming or download.
+
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Community Services</h5>
+            <ul>
+              <li><b>Meeting Rooms and Study Spaces:</b>Reservable meeting rooms and quiet study spaces for individual or group use.
+
+
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Educational Programs</h5>
+            <ul>
+              <li><b>Workshops and Classes: </b>Regular workshops and classes on various topics such as coding, digital
+                literacy, and creative writing.
+              </li>
+              <li><b>Tutoring and Homework Help:</b>Personalized tutoring sessions and homework help for students of all
+                ages.
+
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Special Collections
+            </h5>
+            <ul>
+              <li><b>Rare Books and Manuscripts: </b>Access to rare books and special collections for scholarly research.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Accessibility Services
+            </h5>
+            <ul>
+              <li><b>Assistive Technology: </b>Tools and resources for patrons with disabilities, including screen readers, magnifiers, and accessible workstations.
+
+              </li>
+              <li><b>Homebound Services:  </b>Delivery of library materials to homebound individuals who cannot visit the library in person.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer style="text-align: center; block-size: 50px; background-color:#f8f9fa; color: #343a40;">
+      <small>
+        Copyright © 2023 Unity Library. All Rights Reserved.
+      </small>
+    </footer>
+
+</body>
+
+</html>
